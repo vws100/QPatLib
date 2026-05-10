@@ -16,7 +16,7 @@ license: "MIT"
 
 # QPatLib repository DOI (minted by Zenodo via GitHub releases).
 # Use the Zenodo *concept DOI* for a single stable project DOI; a version DOI can be used for strict reproducibility.
-doi: "xxx"
+doi: 10.5281/zenodo.20114340
 
 keywords:
   - "measurement-based quantum computing"
