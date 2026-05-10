@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use QPatLib (code, catalog, or tooling), please cite it using the metadata below. If you use a specific MBQC pattern, cite the pattern's Zenodo record DOI."
+title: "QPatLib: A community repository of measurement-based quantum computing patterns"
+type: software
+authors:
+  - family-names: "Scarola"
+    given-names: "Vito"
+repository-code: "https://github.com/vws100/QPatLib"
+url: "https://github.com/vws100/QPatLib"
+license: "MIT"
+doi: "xxx"
+keywords:
+  - "measurement-based quantum computing"
+  - "MBQC"
+  - "graph states"
+  - "measurement calculus"
+  - "Graphix"
+  - "OpenQASM 3"
+abstract: >
+  QPatLib is a community repository for validated measurement-based quantum computing (MBQC) patterns and supporting tooling.
+  Code in this repository generates circuits and MBQC patterns locally; patterns are published separately on Zenodo as per-pattern citable records.
