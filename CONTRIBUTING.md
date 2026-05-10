@@ -8,8 +8,8 @@ Thank you for contributing to **QPatLib**. This project is designed to maximize 
    - Generated circuits and patterns are **NOT** committed to GitHub.
    - Output directories are ignored via `.gitignore`.
 
-2. **Zenodo stores citable pattern artifacts (one DOI per pattern).**
-   - Each contributed pattern should be uploaded as a **separate Zenodo record** in the **QPatLib Zenodo community**:
+2. **Zenodo stores citable pattern artifacts (individual patterns or pattern sets).**
+   - Each contributed pattern (or pattern set) should be uploaded to the **QPatLib Zenodo community**:
      https://zenodo.org/communities/qpatlib/
    - The Zenodo record is the authoritative artifact for citation and credit.
 
@@ -24,22 +24,22 @@ Thank you for contributing to **QPatLib**. This project is designed to maximize 
 ## Citation instructions (A–C)
 
 ### (A) If you use a specific pattern
-Cite the **pattern's Zenodo DOI** (each pattern is a separate Zenodo record):
+Cite the **pattern's Zenodo DOI** . Each pattern (or set of patterns) is a separate Zenodo record:
 
-- **Per-pattern DOI:** `xxx`
+- Pattern DOI:** `xxx`
 
 ### (B) If you use QPatLib code/tooling (this repository)
 Cite the **QPatLib repository DOI** minted by Zenodo for the GitHub repository:
 
-- **QPatLib repository DOI:** `xxx`
+- **QPatLib repository DOI:** 10.5281/zenodo.20114340
 
 > Tip: Use the Zenodo **concept DOI** as the single stable project DOI; use a Zenodo **version DOI** if you need strict reproducibility.
 
 ### (C) If you use both a pattern and the tooling
 Cite **both**:
 
-- the **pattern DOI**, and
-- the **QPatLib repository DOI**.
+- the **pattern DOI**, xxx and
+- the **QPatLib repository DOI**. 10.5281/zenodo.20114340
 
 ---
 
@@ -76,7 +76,7 @@ To ensure contributors receive academic credit:
 2. Upload the bundle to Zenodo as a **new record**.
 3. Add it to the **QPatLib** Zenodo community:
    https://zenodo.org/communities/qpatlib/
-4. Publish the record and obtain the **per-pattern DOI**.
+4. Publish the record and obtain the **DOI**.
 
 (Optional) Open a GitHub issue/PR that links the pattern DOI so we can reference it in documentation/catalog.
 
