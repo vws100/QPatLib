@@ -1,5 +1,10 @@
 cff-version: 1.2.0
-message: "If you use QPatLib (code, catalog, or tooling), please cite it using the metadata below. If you use a specific MBQC pattern, cite the pattern's Zenodo record DOI."
+message: >
+  Citation instructions (QPatLib):
+  (A) If you use a specific MBQC pattern from the QPatLib Zenodo community, cite the pattern's Zenodo DOI.
+  (B) If you use QPatLib code/tooling (e.g., circuit generation, pattern generation, validation), cite the QPatLib repository DOI.
+  (C) If you use both a specific pattern and the QPatLib code/tooling, cite both the pattern DOI and the QPatLib repository DOI.
+
 title: "QPatLib: A community repository of measurement-based quantum computing patterns"
 type: software
 authors:
@@ -8,7 +13,11 @@ authors:
 repository-code: "https://github.com/vws100/QPatLib"
 url: "https://github.com/vws100/QPatLib"
 license: "MIT"
+
+# QPatLib repository DOI (minted by Zenodo via GitHub releases).
+# Use the Zenodo *concept DOI* for a single stable project DOI; a version DOI can be used for strict reproducibility.
 doi: "xxx"
+
 keywords:
   - "measurement-based quantum computing"
   - "MBQC"

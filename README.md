@@ -6,10 +6,11 @@ QPatLib is a community repository for **measurement-based quantum computing (MBQ
 
 - **GitHub hosts code + documentation only** (not the generated circuit/pattern artifacts).
 - Users generate **circuits locally**, then generate **patterns locally** from those circuits.
-- Generated output folders are intentionally **not tracked** and are ignored via `.gitignore`. 
-- **Patterns are uploaded manually to Zenodo** (one Zenodo record + DOI per pattern). The Zenodo community is: https://zenodo.org/communities/qpatlib/
+- Generated output folders are intentionally **not tracked** and are ignored via `.gitignore`.
+- **Patterns are uploaded manually to Zenodo** (one Zenodo record + DOI per pattern) in the QPatLib Zenodo community.
 
 GitHub repo: https://github.com/vws100/QPatLib
+Zenodo community: https://zenodo.org/communities/qpatlib/
 
 ---
 
@@ -33,21 +34,25 @@ See **[QUICKSTART.md](QUICKSTART.md)** for step-by-step instructions using **abs
 
 ---
 
-## How to cite
+## How to cite (A–C)
 
-### Cite the tooling/index (this GitHub repository)
-
-Add `CITATION.cff` at the repository root (already planned/used). GitHub will display a “Cite this repository” UI when `CITATION.cff` is present on the default branch.
-
-When you enable the Zenodo–GitHub integration, each GitHub **Release** is archived on Zenodo and receives a DOI. 
-
-- **QPatLib tooling/index DOI (Zenodo, via GitHub releases):** `xxx`
-
-### Cite a pattern (preferred)
-
-Each pattern should be uploaded as its own Zenodo record and cited using its **per-pattern DOI**.
+### (A) If you use a specific pattern
+Cite the **pattern's Zenodo DOI** (each pattern is a separate Zenodo record):
 
 - **Per-pattern DOI:** `xxx`
+
+### (B) If you use QPatLib code/tooling (this repository)
+Cite the **QPatLib repository DOI** minted by Zenodo for the GitHub repository:
+
+- **QPatLib repository DOI:** `xxx`
+
+> Tip: Use the Zenodo **concept DOI** as the single stable project DOI; use a Zenodo **version DOI** if you need strict reproducibility.
+
+### (C) If you use both a pattern and the tooling
+Cite **both**:
+
+- the **pattern DOI**, and
+- the **QPatLib repository DOI**.
 
 ---
 
@@ -64,7 +69,7 @@ Keep these files at the **top level** of the GitHub repository (repo root):
 - `pyproject.toml`
 - `.gitignore`
 
-Notebooks/scripts should be placed under relevant sub-directories, e.g., :
+Notebooks/scripts should be placed under:
 
 - `Quantum_Simulation/Pauli_String_Unitaries_Arbitrary_and_Molecules/Circuit_Code/`
 - `Quantum_Simulation/Pauli_String_Unitaries_Arbitrary_and_Molecules/Graphix_Patterns/`
