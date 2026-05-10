@@ -1,0 +1,38 @@
+################################################################################
+# QPatLib .gitignore
+# Policy: keep generated circuits/pattern artifacts local (not committed).
+# Only ignore the specific generated output directories:
+#   - qasm_circuit_files_* (circuits)
+#   - full_circuit_files_* (circuits)
+#   - json_output_pattern_* (patterns)
+################################################################################
+
+################################################################################
+# Python / Jupyter basics
+################################################################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+################################################################################
+# Generated outputs (DO NOT COMMIT)
+# Location per repo structure:
+# Quantum_Simulation/Pauli_String_Unitaries_Arbitrary_and_Molecules/
+#   Circuit_Code/        -> circuits outputs
+#   Graphix_Patterns/    -> pattern outputs
+################################################################################
+
+# Circuits (generated locally inside Circuit_Code)
+Quantum_Simulation/Pauli_String_Unitaries_Arbitrary_and_Molecules/Circuit_Code/qasm_circuit_files_*/
+Quantum_Simulation/Pauli_String_Unitaries_Arbitrary_and_Molecules/Circuit_Code/full_circuit_files_*/
+
+# Patterns (generated locally inside Graphix_Patterns)
+Quantum_Simulation/Pauli_String_Unitaries_Arbitrary_and_Molecules/Graphix_Patterns/json_output_pattern_*/
