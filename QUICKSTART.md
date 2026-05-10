@@ -4,7 +4,7 @@ This QuickStart follows the intended local workflow:
 
 1. **Generate circuits locally** (OpenQASM 3 outputs)
 2. **Generate MBQC patterns locally** (Graphix JSON outputs) from those circuits
-3. **Upload patterns manually to Zenodo** (one DOI per pattern)
+3. **Upload patterns manually to Zenodo** 
 
 Generated outputs are intentionally **not tracked** and are ignored via `.gitignore`. 
 
