@@ -7,7 +7,7 @@ QPatLib is a community repository for **measurement-based quantum computing (MBQ
 - **GitHub hosts code + documentation only** (not the generated circuit/pattern artifacts).
 - Users generate **circuits locally**, then generate **patterns locally** from those circuits.
 - Generated output folders are intentionally **not tracked** and are ignored via `.gitignore`.
-- **Patterns are uploaded manually to Zenodo** (one Zenodo record + DOI per pattern) in the QPatLib Zenodo community.
+- **Patterns are uploaded manually to Zenodo** in the QPatLib Zenodo community.
 
 GitHub repo: https://github.com/vws100/QPatLib
 Zenodo community: https://zenodo.org/communities/qpatlib/
