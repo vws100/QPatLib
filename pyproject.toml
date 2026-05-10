@@ -7,7 +7,7 @@ name = "qpatlib"
 version = "0.1.0"
 description = "QPatLib: tooling for generating circuits and MBQC patterns (patterns are published separately on Zenodo)."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = "=3.11"
 license = {text = "MIT"}
 authors = [
   {name = "Vito Scarola"}
@@ -21,7 +21,7 @@ dependencies = [
   "networkx>=3.0",
   "requests>=2.31",
   "qiskit>=1.0",
-  "graphix>=0.3.3",
+  "graphix =0.3.3",
   "openqasm3>=1.0.0",
   "jupyterlab>=4.0",
   "ipykernel>=6.0",
