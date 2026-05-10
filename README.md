@@ -44,7 +44,7 @@ Cite the **pattern's Zenodo DOI** (each pattern is a separate Zenodo record):
 ### (B) If you use QPatLib code/tooling (this repository)
 Cite the **QPatLib repository DOI** minted by Zenodo for the GitHub repository:
 
-- **QPatLib repository DOI:** `xxx`
+- **QPatLib repository DOI: 10.5281/zenodo.20114340
 
 > Tip: Use the Zenodo **concept DOI** as the single stable project DOI; use a Zenodo **version DOI** if you need strict reproducibility.
 
