@@ -1,8 +1,8 @@
 numpy>=1.23
 networkx>=3.0
 requests>=2.31
-qiskit=2.2.3
-graphix=0.3.3
+qiskit==2.2.3
+graphix==0.3.3
 openqasm3>=1.0.0
 jupyterlab>=4.0
 ipykernel>=6.0
