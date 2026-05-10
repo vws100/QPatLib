@@ -36,8 +36,8 @@ See **[QUICKSTART.md](QUICKSTART.md)** for step-by-step instructions using **abs
 
 ## How to cite (A–C)
 
-### (A) If you use a specific pattern
-Cite the **pattern's Zenodo DOI** (each pattern is a separate Zenodo record):
+### (A) If you use a pattern
+Cite the **pattern's Zenodo DOI**:
 
 - **Per-pattern DOI:** `xxx`
 
