@@ -82,7 +82,7 @@ Your circuit pipeline should write outputs **only** under `Circuit_Code/` into s
 - `qasm_circuit_files_.../`
 - `full_circuit_files_.../`
 
-These directories are ignored by `.gitignore` and will not be pushed to GitHub. 
+These directories are ignored by `.gitignore` and will not be pushed to GitHub.
 
 ### Suggested absolute-path output roots
 
