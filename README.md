@@ -16,7 +16,7 @@ Zenodo community: https://zenodo.org/communities/qpatlib/
 
 ## Repository layout
 
-The notebooks/scripts live here:
+The notebooks/scripts live in subdirectories, e.g., :
 
 - Circuits: `Quantum_Simulation/Pauli_String_Unitaries_Arbitrary_and_Molecules/Circuit_Code/`
 - Patterns (Graphix): `Quantum_Simulation/Pauli_String_Unitaries_Arbitrary_and_Molecules/Graphix_Patterns/`
@@ -69,7 +69,7 @@ Keep these files at the **top level** of the GitHub repository (repo root):
 - `pyproject.toml`
 - `.gitignore`
 
-Notebooks/scripts should be placed under:
+Notebooks/scripts should be placed under relevant subdirectories, e.g.,:
 
 - `Quantum_Simulation/Pauli_String_Unitaries_Arbitrary_and_Molecules/Circuit_Code/`
 - `Quantum_Simulation/Pauli_String_Unitaries_Arbitrary_and_Molecules/Graphix_Patterns/`
