@@ -64,7 +64,7 @@ Keep these files at the **top level** of the GitHub repository (repo root):
 - `pyproject.toml`
 - `.gitignore`
 
-Notebooks/scripts should be placed under:
+Notebooks/scripts should be placed under relevant sub-directories, e.g., :
 
 - `Quantum_Simulation/Pauli_String_Unitaries_Arbitrary_and_Molecules/Circuit_Code/`
 - `Quantum_Simulation/Pauli_String_Unitaries_Arbitrary_and_Molecules/Graphix_Patterns/`
