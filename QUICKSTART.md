@@ -82,7 +82,7 @@ Your circuit pipeline should write outputs **only** under `Circuit_Code/` into s
 - `qasm_circuit_files_.../`
 - `full_circuit_files_.../`
 
-These directories are ignored by `.gitignore` and will not be pushed to GitHub. citeturn9search38turn9search42
+These directories are ignored by `.gitignore` and will not be pushed to GitHub. 
 
 ### Suggested absolute-path output roots
 
@@ -119,7 +119,7 @@ Your pattern pipeline should write patterns under `Graphix_Patterns/` into subdi
 
 - `json_output_pattern_.../`
 
-These directories are ignored by `.gitignore` and will not be pushed to GitHub. citeturn9search38turn9search42
+These directories are ignored by `.gitignore` and will not be pushed to GitHub. 
 
 Suggested absolute-path output root:
 
@@ -156,5 +156,5 @@ You may upload the locally generated circuit corpus as a ZIP file to Zenodo for 
 ### My generated outputs appear in `git status`
 
 - If they are **untracked**, ensure `.gitignore` contains the patterns for the output directories.
-- If they were **committed previously**, `.gitignore` will not stop tracking them; you must untrack them from the index. citeturn9search38turn9search39
+- If they were **committed previously**, `.gitignore` will not stop tracking them; you must untrack them from the index. 
 
