@@ -130,7 +130,7 @@ PATTERN_OUT.mkdir(parents=True, exist_ok=True)
 
 ---
 
-## 4) Upload patterns to Zenodo (manual; per-pattern DOI)
+## 4) Upload patterns to Zenodo (manual)
 
 To contribute a pattern to QPatLib:
 
@@ -141,7 +141,7 @@ To contribute a pattern to QPatLib:
 2. Upload the bundle as a **new Zenodo record**.
 3. Add it to the **QPatLib Zenodo community**:
    https://zenodo.org/communities/qpatlib/
-4. Publish the record and obtain the **per-pattern DOI**.
+4. Publish the record and obtain the **DOI**.
 
 ---
 
