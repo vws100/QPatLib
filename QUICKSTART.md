@@ -6,13 +6,13 @@ This QuickStart follows the intended local workflow:
 2. **Generate MBQC patterns locally** (Graphix JSON outputs) from those circuits
 3. **Upload patterns manually to Zenodo** (one DOI per pattern)
 
-Generated outputs are intentionally **not tracked** and are ignored via `.gitignore`. citeturn9search38turn9search42
+Generated outputs are intentionally **not tracked** and are ignored via `.gitignore`. 
 
 ---
 
 ## 0) Prerequisites
 
-- Python 3.10+ recommended
+- Python 3.11 recommended
 - Clone the repository:
 
 ```bash
