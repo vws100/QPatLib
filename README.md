@@ -10,6 +10,7 @@ QPatLib is a community repository for **measurement-based quantum computing (MBQ
 - **Patterns are uploaded manually to Zenodo** in the QPatLib Zenodo community.
 
 GitHub repo: https://github.com/vws100/QPatLib
+
 Zenodo community: https://zenodo.org/communities/qpatlib/
 
 ---
