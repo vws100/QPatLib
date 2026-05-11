@@ -34,25 +34,24 @@ See **[QUICKSTART.md](QUICKSTART.md)** for step-by-step instructions using **abs
 
 ---
 
-## How to cite (A–C)
+## Citation instructions (A–C)
 
 ### (A) If you use a pattern
-Cite the **pattern's Zenodo DOI**:
+Cite the **pattern's Zenodo DOI** . Each pattern (or set of patterns) is a separate Zenodo record:
 
-- **Per-pattern DOI:** `xxx`
+- Pattern DOI: [10.5281/zenodo.20115266](https://doi.org/10.5281/zenodo.20115266) 
 
 ### (B) If you use QPatLib code/tooling (this repository)
 Cite the **QPatLib repository DOI** minted by Zenodo for the GitHub repository:
 
-- **QPatLib repository DOI: 10.5281/zenodo.20114340
-
-> Tip: Use the Zenodo **concept DOI** as the single stable project DOI; use a Zenodo **version DOI** if you need strict reproducibility.
+- **QPatLib repository DOI:** [10.5281/zenodo.20114339](https://doi.org/10.5281/zenodo.20114339)
 
 ### (C) If you use both a pattern and the tooling
 Cite **both**:
 
-- the **pattern DOI**, and
-- the **QPatLib repository DOI**.
+- the **pattern DOI** [10.5281/zenodo.20115266](https://doi.org/10.5281/zenodo.20115266) 
+- the **QPatLib repository DOI**. [10.5281/zenodo.20114339](https://doi.org/10.5281/zenodo.20114339)
+
 
 ---
 
