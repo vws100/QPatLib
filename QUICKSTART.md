@@ -156,5 +156,4 @@ You may upload the locally generated circuit corpus as a ZIP file to Zenodo for 
 ### My generated outputs appear in `git status`
 
 - If they are **untracked**, ensure `.gitignore` contains the patterns for the output directories.
-- If they were **committed previously**, `.gitignore` will not stop tracking them; you must untrack them from the index. 
-
+- If they were **committed previously**, `.gitignore` will not stop tracking them; you must untrack them from the index.
