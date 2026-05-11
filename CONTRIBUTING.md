@@ -8,13 +8,13 @@ Thank you for contributing to **QPatLib**. This project is designed to maximize 
    - Generated circuits and patterns are **NOT** committed to GitHub.
    - Output directories are ignored via `.gitignore`.
 
-2. **Zenodo stores citable pattern artifacts (individual patterns or pattern sets).**
+2. **Zenodo stores citable patterns or pattern sets.**
    - Each contributed pattern (or pattern set) should be uploaded to the **QPatLib Zenodo community**:
      https://zenodo.org/communities/qpatlib/
    - The Zenodo record is the authoritative artifact for citation and credit.
 
 3. **Circuits are local by default.**
-   - Users generate circuits locally using the notebooks/scripts in:
+   - Users working on this specific code set generate circuits locally using the notebooks/scripts in:
      `Quantum_Simulation/Pauli_String_Unitaries_Arbitrary_and_Molecules/Circuit_Code/`
    - The repository does **not** download circuits from Zenodo.
    - Circuits may be uploaded to Zenodo as a ZIP for reference/validation.
@@ -23,23 +23,21 @@ Thank you for contributing to **QPatLib**. This project is designed to maximize 
 
 ## Citation instructions (A–C)
 
-### (A) If you use a specific pattern
+### (A) If you use a pattern
 Cite the **pattern's Zenodo DOI** . Each pattern (or set of patterns) is a separate Zenodo record:
 
-- Pattern DOI:** `xxx`
+- Pattern DOI: [10.5281/zenodo.20115267](https://doi.org/10.5281/zenodo.20115267) 
 
 ### (B) If you use QPatLib code/tooling (this repository)
 Cite the **QPatLib repository DOI** minted by Zenodo for the GitHub repository:
 
-- **QPatLib repository DOI:** 10.5281/zenodo.20114340
-
-> Tip: Use the Zenodo **concept DOI** as the single stable project DOI; use a Zenodo **version DOI** if you need strict reproducibility.
+- **QPatLib repository DOI:** [10.5281/zenodo.20114340]https://doi.org/10.5281/zenodo.220114340
 
 ### (C) If you use both a pattern and the tooling
 Cite **both**:
 
-- the **pattern DOI**, xxx and
-- the **QPatLib repository DOI**. 10.5281/zenodo.20114340
+- the **pattern DOI** [10.5281/zenodo.20115267](https://doi.org/10.5281/zenodo.20115267) 
+- the **QPatLib repository DOI**. [10.5281/zenodo.20114340]https://doi.org/10.5281/zenodo.220114340
 
 ---
 
@@ -56,16 +54,16 @@ To ensure contributors receive academic credit:
 
 ## What to contribute
 
-- New MBQC patterns (Graphix JSON plus the corresponding OpenQASM 3 circuit).
+- New MBQC patterns (JSON plus the corresponding OpenQASM 3 circuit).
 - Improvements to circuit-generation or pattern-generation code.
 - Validation tooling, tests, documentation, examples.
 
 ---
 
-## Uploading a pattern to Zenodo (per-pattern DOI)
+## Uploading patterns to Zenodo
 
 1. Prepare a pattern bundle directory containing at least:
-   - Graphix pattern JSON output
+   - Pattern JSON output in standard format 
    - the associated OpenQASM 3 circuit file(s)
    - minimal metadata (recommended):
      - pattern identifier
@@ -89,7 +87,7 @@ To ensure contributors receive academic credit:
 - Ensure outputs go into ignored directories (see `.gitignore`).
 
 ### PR checklist
-- [ ] No generated circuit output directories included (`qasm_circuit_files_*`, `full_circuit_files_*`)
+- [ ] No generated circuit output directories included (`qasm_circuit_files_*`)
 - [ ] No generated pattern output directories included (`json_output_pattern_*`)
 - [ ] Documentation updated if behavior changes
 
