@@ -31,13 +31,13 @@ Cite the **pattern's Zenodo DOI** . Each pattern (or set of patterns) is a separ
 ### (B) If you use QPatLib code/tooling (this repository)
 Cite the **QPatLib repository DOI** minted by Zenodo for the GitHub repository:
 
-- **QPatLib repository DOI:** [10.5281/zenodo.20114340]https://doi.org/10.5281/zenodo.220114340
+- **QPatLib repository DOI:** [10.5281/zenodo.20114340](https://doi.org/10.5281/zenodo.220114340)
 
 ### (C) If you use both a pattern and the tooling
 Cite **both**:
 
 - the **pattern DOI** [10.5281/zenodo.20115267](https://doi.org/10.5281/zenodo.20115267) 
-- the **QPatLib repository DOI**. [10.5281/zenodo.20114340]https://doi.org/10.5281/zenodo.220114340
+- the **QPatLib repository DOI**. [10.5281/zenodo.20114340](https://doi.org/10.5281/zenodo.220114340)
 
 ---
 
