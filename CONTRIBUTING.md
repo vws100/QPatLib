@@ -21,26 +21,6 @@ Thank you for contributing to **QPatLib**. This project is designed to maximize 
 
 ---
 
-## Citation instructions (A–C)
-
-### (A) If you use a pattern
-Cite the **pattern's Zenodo DOI** . Each pattern (or set of patterns) is a separate Zenodo record:
-
-- Pattern DOI: [10.5281/zenodo.20115266](https://doi.org/10.5281/zenodo.20115266) 
-
-### (B) If you use QPatLib code/tooling (this repository)
-Cite the **QPatLib repository DOI** minted by Zenodo for the GitHub repository:
-
-- **QPatLib repository DOI:** [10.5281/zenodo.20114339](https://doi.org/10.5281/zenodo.20114339)
-
-### (C) If you use both a pattern and the tooling
-Cite **both**:
-
-- the **pattern DOI** [10.5281/zenodo.20115266](https://doi.org/10.5281/zenodo.20115266) 
-- the **QPatLib repository DOI**. [10.5281/zenodo.20114339](https://doi.org/10.5281/zenodo.20114339)
-
----
-
 ## Contributor credit rules
 
 ### Credit for patterns is defined by the Zenodo record metadata
