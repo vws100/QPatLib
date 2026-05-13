@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: >
   Citation instructions (QPatLib):
-  (A) If you use a specific MBQC pattern from the QPatLib Zenodo community, cite the pattern's Zenodo DOI.
-  (B) If you use QPatLib code/tooling (e.g., circuit generation, pattern generation, validation), cite the QPatLib repository DOI.
-  (C) If you use both a specific pattern and the QPatLib code/tooling, cite both the pattern DOI and the QPatLib repository DOI.
+  (A) If you use a specific MBQC pattern from the QPatLib Zenodo community, cite the pattern's Zenodo DOI and Papper.
+  (B) If you use QPatLib code/tooling (e.g., circuit generation, pattern generation, validation), cite the QPatLib repository DOI and Paper.
+  (C) If you use both a specific pattern and the QPatLib code/tooling, cite the pattern DOI, the QPatLib repository DOI, and Paper.
 
 title: "QPatLib: A community repository of measurement-based quantum computing patterns"
 type: software
@@ -27,4 +27,4 @@ keywords:
   - "OpenQASM 3"
 abstract: >
   QPatLib is a community repository for validated measurement-based quantum computing (MBQC) patterns and supporting tooling.
-  Code in this repository generates circuits and MBQC patterns locally; patterns are published separately on Zenodo as per-pattern citable records.
+  Code in this repository generates circuits and MBQC patterns locally; patterns are published separately on Zenodo as citable records.
