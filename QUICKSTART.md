@@ -1,4 +1,4 @@
-# QUICKSTART — QPatLib (absolute-path workflow)
+# QUICKSTART — QPatLib 
 
 This QuickStart follows the intended local workflow:
 
