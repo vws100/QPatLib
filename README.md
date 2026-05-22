@@ -26,6 +26,8 @@ See **[QUICKSTART.md](QUICKSTART.md)** for step-by-step instructions using **abs
 
 ## Workflow (v1.0)
 
+v1.0 Constructs measurement patterns for Pauli string unitaries 
+
 (i) Pauli strings choices: For <6 qubits, all possible strings are chosen.  For 6 or more qubits, strings from benchmark molecules in HamLib are used. 
 
 (ii) We then arrange collections of strings into commuting subsets using NetworkX.
